@@ -7,3 +7,5 @@ dependencies:
   - pytorch
   - torchvision
   - pillow
+  - flask
+  - flask-restful

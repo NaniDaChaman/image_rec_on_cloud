@@ -5,6 +5,7 @@ from torchvision import transforms
 def load_model():
     global model
     model = torch.hub.load('pytorch/vision:v0.10.0', 'vgg11', pretrained=True)
+    print("\n\nModel has bben loaded\n\n")
 
 def model_prob(filename):
     input_image = Image.open(filename)
